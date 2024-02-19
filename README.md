@@ -39,6 +39,7 @@ regressor=LinearRegression()
 regressor.fit(x_train,y_train)
 y_pred=regressor.predict(x_test)
 y_pred
+y_test
 plt.scatter(x_train,y_train,color="orange")
 plt.plot(x_train,regressor.predict(x_train),color="red")
 plt.title("Hours vs Scores(Training Set)")
@@ -50,19 +51,26 @@ plt.plot(x_test,regressor.predict(x_test),color="yellow")
 plt.title("Hours vs Scores(Training Set)")
 plt.xlabel("Hours")
 plt.ylabel("Scores")
-plt.show() 
+plt.show()
+mse=mean_squared_error(y_test,y_pred)
+print("MSE =",mse)
+mae=mean_absolute_error(y_test,y_pred)
+print("MAE =",mae)
+rmse=np.sqrt(mse)
+print("RMSE =",rmse)
 */
 ```
 
 ## Output:
-![2024-02-19](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/d03a59d9-16b9-4d90-80e8-6277ba85321a)
-![2024-02-19 (2)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/bb93cfa5-93df-4e57-aa26-650af85aa02d)
-![2024-02-19 (3)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/3b535a4c-4ab1-4a53-b34b-7d4d5310c2e2)
-![2024-02-19 (4)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/5e6eb4e4-880c-4ca2-a430-c2426a48ca90)
-![2024-02-19 (5)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/bd1c1414-59c3-4877-88bb-e25c233d731d)
-![2024-02-19 (6)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/253e3dd1-f151-459d-b195-fce46e030599)
-![2024-02-19 (7)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/307fdc16-0173-4af9-b0c6-f477e34e9fac)
-
+![Screenshot 2024-02-19 211330](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/698c1ae2-6655-4a3b-90a9-0cc13e4e1022)
+![Screenshot 2024-02-19 211347](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/4be3433c-27e6-4cac-8178-bf8dbf6ae978)
+![Screenshot 2024-02-19 211347](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/b1cd39b3-f900-4d90-83e2-e3d84ec5ca77)
+![Screenshot 2024-02-19 211628](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/960c9151-12e6-457a-8332-d187a264d713)
+![Screenshot 2024-02-19 211656](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/11b30918-513f-4e2f-ac17-cd3cd1ea015e)
+![Screenshot 2024-02-19 211716](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/85ca4841-10b9-4f37-8b44-adb91c37bc67)
+![Screenshot 2024-02-19 211742](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/ba252bad-8c9c-4495-b06c-639f2d9274f4)
+![Screenshot 2024-02-19 211757](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/7dcbda77-91f0-40a1-8375-0634bcd6ec34)
+![Screenshot 2024-02-19 211815](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/77ebe46d-e84b-4a2f-9586-5520724ca88d)
 
 
 

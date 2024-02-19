@@ -61,6 +61,8 @@ plt.show()
 ![2024-02-19 (4)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/5e6eb4e4-880c-4ca2-a430-c2426a48ca90)
 ![2024-02-19 (5)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/bd1c1414-59c3-4877-88bb-e25c233d731d)
 ![2024-02-19 (6)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/253e3dd1-f151-459d-b195-fce46e030599)
+![2024-02-19 (7)](https://github.com/SanjayK2006/Implementation-of-Simple-Linear-Regression-Model-for-Predicting-the-Marks-Scored/assets/144979178/307fdc16-0173-4af9-b0c6-f477e34e9fac)
+
 
 
 
